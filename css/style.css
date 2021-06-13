@@ -27,6 +27,7 @@ body{
     align-items: center;
     flex-direction: column;
     background: #231E39;
+    box-shadow: -1px 1px 1px rgba(241, 200, 14, 0.938);
 }
 .conteiner input{
     position: absolute;
@@ -42,7 +43,7 @@ body{
     cursor: pointer;
 }
 .conteiner input:hover{
-    box-shadow: -2px 2px 0px white;
+    box-shadow: -2px 2px 0px #03BFCB;
 }
 .img{
     margin-bottom: 15px;
