@@ -1,0 +1,113 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #B3A7A4;
+    text-align: center;
+    
+}
+body{
+   background: #28223F;
+   max-width: 100%;
+  
+}
+
+.conteiner{
+    position: relative;
+    margin: 100px auto 100px auto;
+    max-width: 400px;
+    border-radius: 15px;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #231E39;
+}
+.conteiner input{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    padding: 5px 8px ;
+    background-color: rgba(241, 200, 14, 0.938);
+    border-radius: 5px;
+    color: black;
+    font-style: italic;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.conteiner input:hover{
+    box-shadow: -2px 2px 0px white;
+}
+.img{
+    margin-bottom: 15px;
+}
+.img img{
+    width: 175px;
+    border-radius: 50%;
+    border: 2px solid #03BFCB;
+    padding: 5px;
+}
+.img p{
+    font-size: 20px;
+    font-weight: bolder;
+    opacity: 0.8;
+    line-height: 1.4;
+}
+.img span{
+    font-weight: 30;
+}
+
+.prod{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.prod p {
+    font-size: 18px;
+}
+.icons{
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+
+.icons a{
+    padding: 10px;
+    border-radius: 50%;
+    transition: 1s ;
+    
+}
+.icons a:nth-child(2){
+    padding: 10px 13px;
+}
+.icons a:hover{
+    background-color: #03becb;
+    color: black;
+    
+}
+
+.skills ul{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.skills ul li{
+    padding: 5px;
+    list-style: none;
+}
+.skills h2{
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.226);
+}
